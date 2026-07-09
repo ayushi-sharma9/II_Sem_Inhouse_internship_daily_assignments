@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Admission Form</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+
+</head>
+
+<body>
+
+     <h1>College Admission Form</h1>
+
+     <div class="container">
+
+      <profile-image>
+        <label for="profile-image">Upload Profile Photo</label>
+        <input type="file" id="profile-image" accept="image/*">
+    </profile-image>
+
+     <fieldset>
+            <legend>Personal Details</legend>
+<form>
+   
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your full name" required>
+
+            <label>Father's Name</label>
+            <input type="text" placeholder="Enter your father's name" required>
+
+            <label>Father's Occupation</label>
+            <input type="text" placeholder="Enter your father's occupation" required>
+
+            <label>Mother's Name</label>
+            <input type="text" placeholder="Enter your mother's name" required>
+
+            <label>Mother's Occupation</label>
+            <input type="text" placeholder="Enter your mother's occupation" required>
+
+             <label>Date of Birth</label>
+            <input type="date" required>
+
+            <label>Caste</label>
+            <select required>
+                <option value="">Select Caste</option>
+                <option>General</option>
+                <option>OBC</option>
+                <option>SC</option>
+                <option>ST</option>
+            </select>
+
+            <label>Gender</label>
+            <input class="gender" type="radio" name="gender"> Male
+            <input class="gender" type="radio" name="gender"> Female
+
+            <label>Blood Group</label>
+            <select required>
+                <option value="">Select Blood Group</option>
+                <option>A+</option>
+                <option>A-</option>
+                <option>B+</option>
+                <option>B-</option>
+                <option>AB+</option>
+                <option>AB-</option>
+                <option>O+</option>
+                <option>O-</option>
+            </select>
+
+            <label>Address</label>
+            <textarea rows="4" placeholder="Enter your address" required></textarea>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Phone Number</label>
+            <input type="tel" placeholder="Enter phone number" required>
+
+            <label>Annual Income</label>
+            <input type="number" placeholder="Enter annual income" required>
+
+            <label>Aadhaar Number</label>
+            <input type="text" placeholder="Enter Aadhaar number" required>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Academic Details</legend>
+
+            <label>Course</label>
+            <select required>
+                <option value="">Select Course</option>
+                <option>B.Tech</option>
+                <option>M.Tech</option>
+                <option>B.Sc</option>
+                <option>M.Sc</option>
+                <option>BBA</option>
+                <option>MBA</option>
+                <option>BCA</option>
+                <option>MCA</option>
+                <option>B.Pharm</option>
+                <option>M.Pharm</option>
+            </select>
+
+            <label>Branch</label>
+            <input type="text" placeholder="Enter branch" required>
+
+            <label>10th Percentage</label>
+            <input type="number" min="0" max="100" placeholder="Enter percentage" required>
+
+            <label>12th Percentage</label>
+            <input type="number" min="0" max="100" placeholder="Enter percentage" required>
+
+               <input class="jee-appeared" type="checkbox" name="jee-appeared" optional> Appeared for JEE
+            <label>Joint Entrance Exam (JEE) Score</label>
+            <input type="number" min="0" max="300" placeholder="Enter score">
+            <input type="number" min="0" max="100" name="jee-percentile" placeholder="Enter percentile">
+        </fieldset>
+
+
+        <button type="submit">Submit Application</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
