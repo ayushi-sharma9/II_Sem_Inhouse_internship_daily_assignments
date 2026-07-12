@@ -1,0 +1,35 @@
+body {
+    font-family: cursive, 'Times New Roman', Times, serif;
+    margin: 20px;
+    background-color: darkgray;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+}
+input[type="submit"], button {
+    font-size: 24px;
+    font-family: cursive, 'Times New Roman', Times, serif;
+    background-color: lightgray;
+    padding: 14px 28px;
+    cursor: pointer;
+}
+text {
+    color: black;
+    
+    text-align: center;
+    font-size: 18px;
+}
+
+textarea,
+select,
+input[type="file"]{
+    font-size:20px;
+    padding:10px;
+    width:300px;
+    border-radius:8px;
+}
+
+img{
+    margin-top:10px;
+    border:2px solid black;
+}
